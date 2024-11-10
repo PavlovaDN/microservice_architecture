@@ -45,8 +45,6 @@ try:
         on_message_callback=callback,
         auto_ack=True
     )
-    print('...Ожидание сообщений, для выхода нажмите CTRL+C')
- 
     # Запускаем режим ожидания прихода сообщений
     channel.start_consuming()
 except:
